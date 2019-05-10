@@ -4,7 +4,7 @@ import axios from "axios";
 import PokemonCard from "./PokemonCard";
 
 const PokemonList = () => {
-  const url = "https://pokeapi.co/api/v2/pokemon/?limit=50";
+  const url = "https://pokeapi.co/api/v2/pokemon/?limit=100";
   const [pokemon, setpokemon] = useState(null);
 
   useEffect(() => {
